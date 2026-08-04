@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7E7FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mi Carrito"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtMensajeCarrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tus juguetes favoritos están aquí."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="18dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerMiCarrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"/>
+
+        <TextView
+            android:id="@+id/txtTotalCarrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: Q0.00"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#AB47BC"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnConfirmarCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar compra"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#AB47BC"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnVaciarCarrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaciar carrito"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#CE93D8"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

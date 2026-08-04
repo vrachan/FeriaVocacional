@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style
+        name="Base.Theme.FeriaVocacional"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:statusBarColor">#E7D2F5</item>
+
+        <item name="android:navigationBarColor">#CFBAFD</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <style
+        name="Theme.FeriaVocacional"
+        parent="Base.Theme.FeriaVocacional"/>
+
+</resources>
