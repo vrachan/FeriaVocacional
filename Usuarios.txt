@@ -1,0 +1,5 @@
+Correo: admin@nubetoys.com
+Contraseña: 1234
+
+Correo: cliente@nubetoys.com
+Contraseña: 1234
